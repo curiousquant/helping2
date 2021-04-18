@@ -4,7 +4,7 @@
 $(document).ready(function(){
     const $ids = $('#ids');
 
-    $ids.on("click",function(){
+    $ids.on("click",async function(){
       console.log("hi");
     //   $.ajax({
     //     url: 'https://comp426-1fa20.cs.unc.edu/a09/tweets',
